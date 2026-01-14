@@ -1,3 +1,11 @@
+import Dashboard from '../Dashboard';
+import AnalyticsDashboard from '../AnalyticsDashboard';
+
 export default function Home() {
-  return <h1>TradingOS is working!</h1>;
+  return (
+    <div>
+      <Dashboard />
+      <AnalyticsDashboard />
+    </div>
+  );
 }
